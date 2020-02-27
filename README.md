@@ -20,3 +20,6 @@ _request review within your app logic_
 iphoneRequestReview.requestReview()
 ...
 ```
+Example in Game
+
+<img src="requestreview.jpg" width="375" height="667">
