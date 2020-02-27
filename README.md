@@ -1,5 +1,5 @@
 # GodotRequestReview
-Godot module for prompting users to leave a review for your app in the App Store
+Godot module for prompting users to leave a review for your godot app in the App Store
 
 __How to use in your project__
 
@@ -16,5 +16,7 @@ if OS.get_name() == 'iOS':
 _request review within your app logic_
 
 ```
+...
 iphoneRequestReview.requestReview()
+...
 ```
