@@ -1,0 +1,12 @@
+Import('env')
+
+module_env = env.Clone()
+
+sources = [
+           'register_types.cpp',
+           'src/request_review.mm'
+           ]
+
+if (module_env["platform"] == "iphone"):
+    module_env.add_source_files(env.modules_sources, sources)
+
