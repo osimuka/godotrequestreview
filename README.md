@@ -10,7 +10,7 @@ _initialise variable_
 ```
 var iphoneRequestReview
 if OS.get_name() == 'iOS':
-    iphoneRequestReview = GodotRequestReview.new()
+    iphoneRequestReview = Engine.get_singleton("GodotRequestReview")
 ```
 
 _request review within your app logic_
