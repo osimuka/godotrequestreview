@@ -4,7 +4,7 @@ module_env = env.Clone()
 
 sources = [
            'register_types.cpp',
-           'src/request_review.mm'
+           'ios/request_review.mm'
            ]
 
 if (module_env["platform"] == "iphone"):
