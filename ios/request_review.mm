@@ -6,7 +6,11 @@
 GodotRequestReview::GodotRequestReview() {}
 
 void GodotRequestReview::requestReview() {
+    if (@available(iOS 10.3, *)) {
     [SKStoreReviewController requestReview];
+    }
+    else {NSLog(@"Not avaliable");
+   }
 }
 
 void GodotRequestReview::_bind_methods() {
